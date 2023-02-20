@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "currentBooks": [
+      "3"
+    ],
+    "issuedBooks": [
+      "2"
+    ],
+    "employeeName": "Салмоор"
+  },
+  {
+    "id": "2",
+    "currentBooks": [],
+    "issuedBooks": [],
+    "employeeName": "Ислам"
+  },
+  {
+    "id": "3",
+    "currentBooks": [
+      "2"
+    ],
+    "issuedBooks": [
+      "1"
+    ],
+    "employeeName": "Ахмет"
+  }
+]
