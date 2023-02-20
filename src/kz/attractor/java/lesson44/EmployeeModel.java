@@ -14,15 +14,11 @@ public class EmployeeModel {
     private static ArrayList<Employee> employees;
 
     public EmployeeModel() {
-        employees = new ArrayList(List.of(readEmployee()));
+        employees = new ArrayList<>(List.of(readEmployee()));
     }
 
     public ArrayList<Employee> getEmployees() {
         return employees;
-    }
-
-    public void setEmployees(ArrayList<Employee> employee) {
-        this.employees = employee;
     }
 
     public static Employee[] readEmployee() {

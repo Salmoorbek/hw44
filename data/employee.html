@@ -13,8 +13,8 @@
         <th scope="col">#</th>
         <th scope="col">ID</th>
         <th scope="col">Имя</th>
-        <th scope="col">Список текущих книг</th>
-        <th scope="col">Список книг, которые когда либо брал</th>
+        <th scope="col">Читает</th>
+        <th scope="col">Прочел и вернул</th>
     </tr>
     </thead>
     <tbody>
@@ -32,7 +32,7 @@
     </#list>
     </#list>
     <#else>
-    еще ни одной книги не взял
+    не читает
 </#if>
 </td>
 <td><#if employee.issuedBooks?? && (employee.issuedBooks?size > 0)>
@@ -44,7 +44,7 @@
 </#list>
 </#list>
 <#else>
-еще ни одной книги не отдал
+пока ничего не отдал
 </#if>
 </td>
 </tr>

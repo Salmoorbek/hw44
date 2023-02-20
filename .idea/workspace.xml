@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90b8887-46e7-45e9-a79c-19a34a11d935" name="Changes" comment="finished hw44">
-      <change afterPath="$PROJECT_DIR$/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employee.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/BookModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/EmployeeModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw-44.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw-44.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Lesson44Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Lesson44Server.java" afterDir="false" />
+    <list default="true" id="d90b8887-46e7-45e9-a79c-19a34a11d935" name="Changes" comment="finished hw44.">
+      <change afterPath="$PROJECT_DIR$/data/images/harry_potter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/pereshmeshnik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/vlastelin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books.json" beforeDir="false" afterPath="$PROJECT_DIR$/books.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/books.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/data/employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee.json" beforeDir="false" afterPath="$PROJECT_DIR$/employee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/BookModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/EmployeeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kz/attractor/java/lesson44/EmployeeModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/salmoorbek/Documents/java-jdk/homeworks/2023/february/hw-44/data",
+    "last_opened_file_path": "/Users/salmoorbek/Documents/java-jdk/homeworks/2023/february/hw-44/data/images",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -47,11 +48,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/images" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/kz/attractor" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kz.attractor.java.Main" />
+      <module name="hw-44" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.attractor.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676881130683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished hw44.">
+      <created>1676881271979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881271980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -98,6 +127,7 @@
     <MESSAGE value="start project" />
     <MESSAGE value="added all project parts" />
     <MESSAGE value="finished hw44" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished hw44" />
+    <MESSAGE value="finished hw44." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished hw44." />
   </component>
 </project>

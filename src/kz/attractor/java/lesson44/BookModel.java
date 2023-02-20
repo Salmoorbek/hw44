@@ -21,10 +21,7 @@ public class BookModel {
         return books;
     }
     public Book getBook() {
-        return books.get(1);
-    }
-    public void setBooks(ArrayList<Book> books) {
-        this.books = books;
+        return books.get(2);
     }
 
     public static Book[] readBooks(){

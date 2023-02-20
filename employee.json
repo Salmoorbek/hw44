@@ -2,10 +2,10 @@
   {
     "id": "1",
     "currentBooks": [
-      "3"
+      "1"
     ],
     "issuedBooks": [
-      "2"
+      "2","3"
     ],
     "employeeName": "Салмоор"
   },
@@ -21,7 +21,7 @@
       "2"
     ],
     "issuedBooks": [
-      "1"
+      "1","2"
     ],
     "employeeName": "Ахмет"
   }

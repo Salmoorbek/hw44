@@ -9,25 +9,10 @@ public class Employee {
     private String employeeName;
 
 
-    public Employee(String id, List<String> currentBooks, List<String> issuedBooks, String employeeName, String password) {
+    public Employee(String id, List<String> currentBooks, List<String> issuedBooks, String employeeName) {
         this.id = id;
         this.currentBooks = currentBooks;
         this.issuedBooks = issuedBooks;
-        this.employeeName = employeeName;
-    }
-
-    public Employee(String id, String employeeName, String password) {
-        this(id, null, null, employeeName, password);
-    }
-    public Employee() {
-        this(null, null, null, null, null);
-    }
-
-    public String getEmployeeName() {
-        return employeeName;
-    }
-
-    public void setEmployeeName(String employeeName) {
         this.employeeName = employeeName;
     }
 
@@ -35,25 +20,31 @@ public class Employee {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public List<String> getCurrentBooks() {
         return currentBooks;
-    }
-
-    public void setCurrentBooks(List<String> currentBooks) {
-        this.currentBooks = currentBooks;
     }
 
     public List<String> getIssuedBooks() {
         return issuedBooks;
     }
 
+    public String getEmployeeName() {
+        return employeeName;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setCurrentBooks(List<String> currentBooks) {
+        this.currentBooks = currentBooks;
+    }
+
     public void setIssuedBooks(List<String> issuedBooks) {
         this.issuedBooks = issuedBooks;
     }
 
-
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
+    }
 }

@@ -5,10 +5,31 @@ public class Book {
     private String name;
     private String author;
     private int year;
-    private boolean isCoverSolid;
     private String genre;
     private boolean issued;
     private String employeeId;
+    private String description;
+    private String photo;
+
+    public boolean isIssued() {
+        return issued;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
 
     public String getId() {
         return id;
@@ -72,13 +93,5 @@ public class Book {
 
     public void setDate(int year) {
         this.year = year;
-    }
-
-    public boolean getIsCoverSolid() {
-        return isCoverSolid;
-    }
-
-    public void setCoverSolid(boolean coverSolid) {
-        isCoverSolid = coverSolid;
     }
 }
